@@ -39,11 +39,12 @@ public class Calculator {
             case ("^"):
                 return Power(xValue,yValue);
 
+            case ("sin"):
+                return Sin(xValue);
+
             case ("cos"):
                 return Cos(xValue);
 
-            case ("sin"):
-                return Sin(xValue);
 
 
             default:
@@ -54,6 +55,10 @@ public class Calculator {
         return -1;
 
     }
+    public  static double Sin (double xValue) {
+        return Math.sin(xValue);
+    }
+
 
     public  static double Cos (double xValue) {
         return Math.cos(xValue);
@@ -82,10 +87,6 @@ public class Calculator {
 
     public  static double Power (double xValue, double yValue) {
         return Math.pow(xValue, yValue);
-    }
-
-    public  static double Sin (double xValue) {
-        return Math.sin(xValue);
     }
 
 
