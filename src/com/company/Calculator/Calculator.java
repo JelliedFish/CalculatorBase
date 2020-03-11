@@ -46,6 +46,7 @@ public class Calculator {
                 return Cos(xValue);
 
 
+
             default:
                 System.out.print("Incorrect input... Please choose : {+,-,*,/,%,^} \n");
                 break;
@@ -53,6 +54,14 @@ public class Calculator {
         }
         return -1;
 
+    }
+    public  static double Sin (double xValue) {
+        return Math.sin(xValue);
+    }
+
+
+    public  static double Cos (double xValue) {
+        return Math.cos(xValue);
     }
 
     public static double Plus ( double xValue, double yValue ) {
@@ -78,14 +87,6 @@ public class Calculator {
 
     public  static double Power (double xValue, double yValue) {
         return Math.pow(xValue, yValue);
-    }
-
-    public  static double Sin (double xValue) {
-        return Math.sin(xValue);
-    }
-
-    public  static double Cos (double xValue) {
-        return Math.cos(xValue);
     }
 
 
