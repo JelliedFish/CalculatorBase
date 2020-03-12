@@ -98,5 +98,16 @@ public class CalculatorTest {
         Assert.assertEquals(expected,result,4);
     }
 
+    @Test
+    public void CheckPower2(){
+
+
+        double expected =Math.pow(2,5);
+
+        double result = Calculator.Plus(2,45);
+
+        Assert.assertEquals(expected,result,4);
+    }
+
 
 }
