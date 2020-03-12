@@ -45,6 +45,9 @@ public class Calculator {
             case ("log10"):
                 return Log10(xValue);
 
+            case ("log"):
+                return Log(xValue);
+
             case ("abs"):
                 return Cos(xValue);
 
@@ -101,6 +104,10 @@ public class Calculator {
 
     public  static double ABS (double xValue) {
         return Math.abs(xValue);
+    }
+
+    public  static double Log (double xValue) {
+        return Math.log(xValue);
     }
 
 }
