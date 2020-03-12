@@ -42,8 +42,15 @@ public class Calculator {
             case ("sin"):
                 return Sin(xValue);
 
+            case ("log10"):
+                return Log10(xValue);
+
+            case ("abs"):
+                return Cos(xValue);
+
             case ("cos"):
                 return Cos(xValue);
+
 
 
 
@@ -59,6 +66,9 @@ public class Calculator {
         return Math.sin(xValue);
     }
 
+    public  static double Log10 (double xValue) {
+        return Math.log10(xValue);
+    }
 
     public  static double Cos (double xValue) {
         return Math.cos(xValue);
@@ -89,6 +99,8 @@ public class Calculator {
         return Math.pow(xValue, yValue);
     }
 
-
+    public  static double ABS (double xValue) {
+        return Math.abs(xValue);
+    }
 
 }
